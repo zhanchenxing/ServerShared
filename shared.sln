@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleIni", "SimpleIni\SimpleIni.vcxproj", "{9547989B-F895-4512-9EF3-CAFE6602500B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleIniTest", "SimpleIniTest\SimpleIniTest.vcxproj", "{C5A8A406-7B49-46A6-A5C9-232A85856885}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9547989B-F895-4512-9EF3-CAFE6602500B} = {9547989B-F895-4512-9EF3-CAFE6602500B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataChannel", "DataChannel\DataChannel.vcxproj", "{5F9B3865-2ADC-45E6-A470-F0744572713A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MysqlConnect", "MysqlConnect\MysqlConnect.vcxproj", "{0692DFB1-7AF9-4C2B-8325-9578E4EB63FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9547989B-F895-4512-9EF3-CAFE6602500B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9547989B-F895-4512-9EF3-CAFE6602500B}.Debug|Win32.Build.0 = Debug|Win32
+		{9547989B-F895-4512-9EF3-CAFE6602500B}.Release|Win32.ActiveCfg = Release|Win32
+		{9547989B-F895-4512-9EF3-CAFE6602500B}.Release|Win32.Build.0 = Release|Win32
+		{C5A8A406-7B49-46A6-A5C9-232A85856885}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5A8A406-7B49-46A6-A5C9-232A85856885}.Debug|Win32.Build.0 = Debug|Win32
+		{C5A8A406-7B49-46A6-A5C9-232A85856885}.Release|Win32.ActiveCfg = Release|Win32
+		{C5A8A406-7B49-46A6-A5C9-232A85856885}.Release|Win32.Build.0 = Release|Win32
+		{5F9B3865-2ADC-45E6-A470-F0744572713A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F9B3865-2ADC-45E6-A470-F0744572713A}.Debug|Win32.Build.0 = Debug|Win32
+		{5F9B3865-2ADC-45E6-A470-F0744572713A}.Release|Win32.ActiveCfg = Release|Win32
+		{5F9B3865-2ADC-45E6-A470-F0744572713A}.Release|Win32.Build.0 = Release|Win32
+		{0692DFB1-7AF9-4C2B-8325-9578E4EB63FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0692DFB1-7AF9-4C2B-8325-9578E4EB63FB}.Debug|Win32.Build.0 = Debug|Win32
+		{0692DFB1-7AF9-4C2B-8325-9578E4EB63FB}.Release|Win32.ActiveCfg = Release|Win32
+		{0692DFB1-7AF9-4C2B-8325-9578E4EB63FB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
